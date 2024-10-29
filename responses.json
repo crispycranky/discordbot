@@ -1,0 +1,43 @@
+{
+    
+        "hello": ["yo what’s good?", "aye hey there!", "betty bet", "sup fam!"],
+        "how are you": ["chillin, chillin… how bout you?", "feelin’ good, just doin’ my thing 😎", "same ol', same ol', you know how it is!"],
+        "bye": ["aight, catch you later!", "peace out!", "take it easy!", "laters!"],
+        "help": ["what’s up? need somethin'?", "yo, I gotchu, what’s good?", "lemme know what ya need, fam!"],
+        "lol": ["LMAO", "yo, that's wild", "haha fr fr", "😂 😂 that one got me!"],
+        "thanks": ["no prob fam!", "anytime!", "gotchu!", "for sure!"],
+        "good job": ["appreciate that!", "thanks fam!", "ayyy good lookin' out!", "means a lot!"],
+        "what’s up": ["not much, what’s good with you?", "just vibin', how about you?", "chillin', chillin', how you been?"],
+        "good night": ["sleep tight!", "peace, have a good one!", "aight, later!", "gn, catch ya later!"],
+        "who are you": ["just a bot tryna vibe out here", "I’m like, a chill bot just here for the vibes 😎", "just me, hangin' in the server"],
+        "what’s new": ["not a lot, just bot stuff", "you know, same ol' same ol'", "vibin', keepin' it lowkey"],
+        "congrats": ["ayyy nice one!", "big W!", "that's sick, congrats!", "yo props on that!"],
+        "you good?": ["yup, all good!", "straight chillin'", "always good on this side!"],
+        "fat": ["who you callin fat", "ok bro, sure"],
+        "stream": ["def gonna be a late stream", "gotta catch up on some of that shit", "gotta catch up on the stream", "bless you chat", "internet died brb"],
+        "not you": ["its my server"],
+        "let's hang": ["bet, I'm down! What’s the plan?", "for sure, I’m all in!", "let's get together and vibe!"],
+        "what you up to?": ["just chilling here, what's good with you?", "kicking back, you know how it is.", "just vibin' and waiting for the next chat!"],
+        "what's your favorite game?": ["man, I love a good RPG, you feel me?", "gotta say I’m a sucker for adventure games!", "I vibe with anything that’s fun, you know?"],
+        "what's your favorite music?": ["gotta love some chill beats, you know?", "I'm all about that laid-back vibe!", "anything that slaps, I'm down!"],
+        "movie": ["I dig the classics, you know?", "gotta say I'm into those feel-good flicks!", "as long as it's entertaining, I'm in!"],
+        "do you play games?": ["I wish, but I’m just here for the vibes!", "I’d be a pro if I could, for sure!", "nah, just here to cheer you on!"],
+        "vibe": ["just chilling, keeping it mellow.", "vibes are high, you know?", "we're all about good energy here!"],
+        "got any recommendations?": ["for games? try some horror games, those are fire!", "music? anything chill and vibey!", "definitely check out some good streams!"],
+        "I'm bored": ["let’s fix that, what’s popping?", "ayo, let’s find something fun to do!", "boredom ain't it, let’s vibe!"],
+        "meme": ["you already know I got the memes on deck!", "memes? I got a whole collection, fam!", "hit me with a topic and I’ll meme it up!"],
+        "buttons":["where are my buttons at??"],
+        "bently":["how you doin bento?"],
+        "gn":["later later peace peace peace", "bybybybyby"],
+        "rynx":["rynx in the building, whats good rynx?"],
+        "ksi":["I love lunchly and the new ksi song was not that bad!", "from the screen to the ring to the pen to the king"],
+        "internet":["NEVERMIND MY INTERNET IS ASSS"],
+        "Karson doesn’t read": ["bro i cant be reading chat messages bc im with the ez egorls"],
+        "lazlo":["i know i say hes alive but that mf dead asf"],
+        "Karson":[" my upload is fucked up for some reason ressetting doesnt help 😦","bro what" ],
+        "short":["What a blessing being tall is 😮‍💨", "Feel bad for lil shortcakes"]
+
+
+    
+
+}
