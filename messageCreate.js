@@ -7,8 +7,9 @@ module.exports = {
     name: 'messageCreate',
     async execute(message, client) {
         if (message.author.bot) return;  // Ignore messages from other bots
-         // Check if the message has an image attachment
-         if (message.attachments.size > 0) {
+
+        // Check if the message has an image attachment
+        if (message.attachments.size > 0) {
             // Filter attachments to see if they are images
             const hasImage = message.attachments.some(attachment => {
                 return attachment.contentType && attachment.contentType.startsWith('image');
@@ -20,9 +21,15 @@ module.exports = {
                 const imageResponses = [
                     "this shit looks pretty sick ngl",
                     "thats fire",
-                    " bet imms look at em",
+                    "thats dope",
                     "this is so ghetto 💔",
-                    "w haha"
+                    "w haha",
+                    "this pic is gas",
+                    "stupid pic",
+                    "this is a really bad pic",
+                    "massive L {username}",
+                    "this is a super cute pic do they make it for men?",
+                    "dont care for this pic",
                 ];
                 const imageReply = imageResponses[Math.floor(Math.random() * imageResponses.length)];
                 setTimeout(() => {
@@ -38,11 +45,15 @@ module.exports = {
                 // Send a typing indicator
                 message.channel.sendTyping();
 
-                // Send a random reply with a delay to mimic typing
-                const reply = replies[Math.floor(Math.random() * replies.length)];
+                // Choose a random reply and replace `{username}` with the actual username
+                let reply = replies[Math.floor(Math.random() * replies.length)];
+                reply = reply.replace("{username}", message.author.username);
+
+                // Send the reply with a random delay between 3 and 5 seconds
+                const delay = Math.floor(Math.random() * 2000) + 3000;
                 setTimeout(() => {
                     message.channel.send(reply);
-                }, Math.random(3000, 5000)); // Delay randomly between 1 and 5 seconds
+                }, delay);
 
                 return;  // Stop after the first match to avoid multiple replies
             }
